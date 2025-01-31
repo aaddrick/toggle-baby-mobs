@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "toggle-baby-mobs:item/age_potion"
+  }
+}

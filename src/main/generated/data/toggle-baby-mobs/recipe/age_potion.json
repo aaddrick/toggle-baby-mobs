@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "multi_bench",
+  "key": {
+    "C": "minecraft:carrot",
+    "E": "minecraft:emerald",
+    "G": "minecraft:ghast_tear",
+    "R": "minecraft:redstone",
+    "S": "minecraft:sugar"
+  },
+  "pattern": [
+    " S ",
+    "RGC",
+    " E "
+  ],
+  "result": {
+    "count": 4,
+    "id": "toggle-baby-mobs:age_potion"
+  }
+}

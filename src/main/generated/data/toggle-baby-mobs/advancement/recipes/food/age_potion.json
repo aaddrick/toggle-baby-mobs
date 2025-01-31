@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ghast_tear": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ghast_tear"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "toggle-baby-mobs:age_potion"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ghast_tear"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "toggle-baby-mobs:age_potion"
+    ]
+  }
+}

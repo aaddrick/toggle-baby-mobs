@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "toggle-baby-mobs:item/age_potion"
+  }
+}

@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "toggle-baby-mobs",
+	"version": "${version}",
+	"name": "Toggle Baby Mobs",
+	"description": "Craft an Age Potion to toggle mobs between their baby and adult versions. Works on villagers, zombies, cows, and many other entities.",
+	"authors": [
+		"aaddrick",
+		"aart",
+		"Kailey"
+	],
+	"contact": {
+		"sources": "https://github.com/aaddrick/toggle-baby-mobs"
+	},
+	"license": "Unlicense",
+	"icon": "assets/toggle-baby-mobs/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"aartcraft.togglebabymobs.ToggleBabyMobs"
+		],
+		"client": [
+			"aartcraft.togglebabymobs.ToggleBabyMobsClient"
+		],
+		"fabric-datagen": [
+			"aartcraft.togglebabymobs.datagen.ToggleBabyMobsDataGenerator"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": ">1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
