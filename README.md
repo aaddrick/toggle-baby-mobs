@@ -1,12 +1,12 @@
+![Toggle Baby Mobs Title Image](https://cdn.modrinth.com/data/cached_images/0c6f4eeb162886f10929bb961df8cf34e5ce42f3.png)
+
 # Toggle Baby Mobs
 
 [![Mod License](https://img.shields.io/badge/license-Unlicense-blue.svg)](https://unlicense.org/)
-[![Minecraft Version](https://img.shields.io/badge/Minecraft->1.21-green)](https://minecraft.net)
+[![Minecraft Version](https://img.shields.io/badge/Minecraft->1.21.4-green)](https://minecraft.net)
 [![Mod Loader](https://img.shields.io/badge/Mod%20Loader-Fabric-orange)](https://fabricmc.net)
 
 A quality-of-life mod that lets you toggle mob ages using a craftable Age Potion. Perfect for animal breeders, zombie survivalists, and mischievous villagers!
-
-![Age Potion in Action](https://i.imgur.com/placeholder.png) *Add your own gameplay screenshots here*
 
 ## Features
 
@@ -22,7 +22,15 @@ Works with:
 - Many other ageable entities!
 
 🧪 **Simple Crafting**  
-Includes an intuitive recipe for the Age Potion using common materials
+Recipe generates four Age Potions. 
+
+ - Sugar
+ - Redstone
+ - Ghast Tear
+ - Carrot
+ - Emerald
+
+![Age Potion Recipe](https://cdn.modrinth.com/data/cached_images/601cdcb6468fc693a8aca3531aa156fe91be50a0.png)
 
 🌍 **Multiplayer Ready**  
 Works seamlessly in both singleplayer and server environments
@@ -36,29 +44,16 @@ Translated into 10 languages including:
 - Japanese
 - ...and more!
 
-## Installation
-
-1. **Install Fabric Loader** ([official guide](https://fabricmc.net/use/))
-2. **Download Fabric API** from [Modrinth](https://modrinth.com/mod/fabric-api)
-3. **Download Toggle Baby Mobs** from this page
-4. Place both mods in your `mods` folder
-
-*Requires Minecraft 1.21+ and Java 21*
-
 ## Usage
 
 1. Craft the Age Potion using the included recipe
 2. Hold the potion in your main or off-hand
 3. Right-click any ageable mob to toggle its growth stage
 
-**Creative Mode:** Works in creative without consuming potions
 
 ## Compatibility
 
-✅ Client-side only (no server install needed)  
-✅ Works with most mobs and modded entities  
-✅ Compatible with popular modpacks  
-❌ Not compatible with Forge
+✅ Works with any mob/entity which has an IsBaby NBT tag.  
 
 ## Contributing
 
@@ -75,7 +70,3 @@ This project is released under the **[Unlicense](https://unlicense.org/)** - com
 - aaddrick
 - aart  
 - Kailey
-
-**Special Thanks:**
-- FabricMC team for the amazing modding framework
-- Our fantastic translator community
